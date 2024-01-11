@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Scooba Life</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1><span>S</span>cooba Life</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+        
+          <ul>
+            <li><a href="#home" data-after="Home">Home</a></li>
+            <li><a href="#about" data-after="About">About Us</a></li>
+            <li><a href="#services" data-after="Service">Courses</a></li>
+            <li><a href="#service" data-after="Course">Services</a></li>
+            <li><a href="#product" data-after="product">Product</a></li>
+            <li><a href="#contact" data-after="Contact">Contact Us</a></li>
+            <li><a href="#mm" data-after="MM">MM</a></li> |
+            <li><a href="#eng" data-after="Eng">Eng</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+
+  <!-- Hero Section  -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>The Exciting <span></span></h1>
+          <h1>Life of </h1> <span></span></h1>
+          <h1>Scuba Divers <span></span></h1>
+          <a href="#service" data-after="Service" type="button" 
+          style="display: inline-block;
+          padding: 10px 30px;
+          color: white;
+          background-color: transparent;
+          border: 2px solid crimson;
+          font-size: 2rem;
+          text-transform: uppercase;
+          letter-spacing: 0.1rem;
+          margin-top: 30px;
+          transition: 0.3s ease;
+          transition-property: background-color, color;">Services</a>
+        </div>
+      </div>
+    </section>
+  <!-- End Hero Section  -->
+  <!-- Courses Section -->
+  <section id="services">
+    <div class="services container">
+      <div class="service-top">
+        <h1 class="section-title">Cou<span>r</span>ses</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum deleniti maiores pariatur assumenda quas
+          magni et, doloribus quod voluptate quasi molestiae magnam officiis dolorum, dolor provident atque molestias
+          voluptatum explicabo!</p>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/beginner.jpg"/></div>
+          <h2>Beginner Courses</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/intermediate.jpg" /></div>
+          <h2>Intermediate Courses</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/advance.jpg" /></div>
+          <h2>Advanced Courses</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis debitis rerum, magni voluptatem sed
+            architecto placeat beatae tenetur officia quod</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Courses Section -->
+  <!-- Services Section -->
+  <section id="service">
+    <div class="service container">
+      <div class="service-top">
+        <h1 class="section-title">Ser<span>v</span>ices</h1><br>
+        <div class="service">
+          <h2>Hire Your Equipment Here</h2>
+          <p>Hosting a party or event? Ensure your floors are spotless for your guests.
+            <br> Rent a Scooba for a day or a weekend to make sure your home or venue is 
+            <br> in top-notch condition.</p>
+      </div>
+      <div class="service">
+          <h2>Equipment Servicing</h2>
+          <p>Enjoy the convenience of a clean home without the long-term commitment.<br>
+             Renting Scooba equipment allows you to experience the latest in cleaning <br>
+             technology without the hassle of storage or maintenance.</p>
+          </div>
+      </div>
+</section>
+  <!-- End Service section -->
+  <!-- Products Section -->
+  <section id="product">
+    <div class="services container">
+      <div class="services-header">
+        <h1 class="section-title">Our <span>best </span>seller products</h1>
+      </div>
+      <div class="service-bottom">
+        <div class="service-item">
+          <div class="icon"><img src="./img/image1.jpg"/></div>
+          <h2>Hydro Pros</h2>
+          <p>$200</p>
+          <p>4.5/5</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/image2.jpg" /></div>
+          <h2>Aladin A2</h2>
+          <p>$200</p>
+          <p>4.5/5</p>
+        </div>
+        <div class="service-item">
+          <div class="icon"><img src="./img/image3.jpg" /></div>
+          <h2>Nano Water Proof</h2>
+          <p>$250</p>
+          <p>4.5/5</p>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-info">
+          <form id="contactForm" action="" method="post">
+            <h4 style="font-size: 15px;">Make Your Order Here</h4><br>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <input type="address" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone:</label>
+              <input type="phone" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Product Name and Quality:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit">Order</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+   
+  </section>
+  <!-- End Projects Section -->
+ 
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-right">
+        <h1 class="section-title">About <span>Us</span></h1>
+        <p>Our Diving base Calypso has more than 25 years of experience in SCUBA diving organisation.
+           Our main goal is to provide diving courses for professional and for first-time divers supported 
+           by SSI franchise. Our diving courses consist of theory (we provide digital online literature)
+           and diving lessons with equipment, instructor and transfer by boat to diving locations. 
+           Beside diving courses, we organize diving excursions and discovery diving (first-time diving). 
+           We offer over 20 different locations of shipwrecks, amphorae, reefs and underwater wells (Vrulja).
+           Out of the season we provide wide range of inland / inshore diving operations: lifting operations,
+           mooring construction, cutting, concreting and shipworks such as: hull inspection, corrosion inspection,
+           underwater cleaning, prop polishing, pipeline construction and inspection. Right from the beginning, 
+           our company was engaged in cultural and natural heritage conservation and environmental preservation 
+           (see page Projects) what is becoming more and more our company policy.
+
+        </p>
+        <a href="#" class="cta"><b>Login with Facebook</b></a>&nbsp;&nbsp;
+        <a href="#" class="cta"><b>Login with Google</b></a>
+      </div>
+      <div class="col-left">
+        <div class="about-img">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel"></div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/about.jpg" class="d-block w-100" alt="">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="contact-info">
+            <form id="contactForm" action="" method="post">
+              <h4>Get in Touch With Us</h4><br>
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="phone" id="phone" name="phone" required>
+              </div>
+              <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+              </div>
+              <div class="form-group">
+                <button type="submit">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="contact-info">
+         
+            <h1>Contact Information</h1>
+            <h2 style="font-size: 20px;">We are here</h2><br>
+            <h2 style="font-size: 15px;"><b>6 street Yangon</b></h2><br>
+
+            <h2 style="font-size: 20px;">Call Us</h2><br>
+            <h2 style="font-size: 15px;"><b>+959-123-456-789</b></h2>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>Ei</span>&nbsp;Nge <span>K</span>hine</h1>
+        <h2 style="text-align: center;">+959963437573</h2>
+      </div>
+      <div class="quick-links">
+        <a href="#home">Home</a>
+        <a href="#services">Courses</a>
+        <a href="#service">Services</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+      </div><br>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook" style="color: white;"></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.youtube.com/" target="_blank" class="fa fa-youtube"  style="color: white;"></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/" target="_blank" class="fa fa-linkedin"  style="color: white;"></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/" target="_blank" class="fa fa-instagram"  style="color: white;"></a>
+        </div>
+      </div>
+      <p>Copyright © 2024 Ei Nge Khine. All rights reserved</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+<script>
+    // This is your actual resume file stored on your server. You can replace it with your own file.
+const resumeUrl = 'C:\Users\Lenovo\Desktop\portfoliobywebcog\resume\resume.pdf';
+
+document.querySelector('.cta').addEventListener('click', function(event) {
+ event.preventDefault(); // Prevent the default action of the link
+
+ // Use the Blob object to represent the resume file and create an object URL for it
+ const xhr = new XMLHttpRequest();
+ xhr.open('GET', resumeUrl, true);
+ xhr.responseType = 'blob';
+ xhr.onload = function() {
+    if (xhr.status === 200) {
+      const blob = xhr.response;
+      const objectUrl = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.style.display = 'none';
+      a.href = objectUrl;
+      a.download = 'resume.pdf'; // The name of the downloaded file
+      document.body.appendChild(a);
+      a.click(); // Trigger the download
+      URL.revokeObjectURL(objectUrl); // Free the memory
+      document.body.removeChild(a); // Remove the temporary link
+    }
+ };
+ xhr.send();
+});
+</script>
+</html>
